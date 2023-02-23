@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/Libraries/IXXAT/USBToCAN/kernel/drivers/net/can/usb/ixxat_usb/modules.order := {   echo /home/ubuntu/Libraries/IXXAT/USBToCAN/kernel/drivers/net/can/usb/ixxat_usb/ix_usb_can.ko; :; } | awk '!x[$$0]++' - > /home/ubuntu/Libraries/IXXAT/USBToCAN/kernel/drivers/net/can/usb/ixxat_usb/modules.order

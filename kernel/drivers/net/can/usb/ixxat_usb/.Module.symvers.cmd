@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/Libraries/IXXAT/USBToCAN/kernel/drivers/net/can/usb/ixxat_usb/Module.symvers := sed 's/ko$$/o/' /home/ubuntu/Libraries/IXXAT/USBToCAN/kernel/drivers/net/can/usb/ixxat_usb/modules.order | scripts/mod/modpost -m -a  -o /home/ubuntu/Libraries/IXXAT/USBToCAN/kernel/drivers/net/can/usb/ixxat_usb/Module.symvers -e -i Module.symvers   -T -
